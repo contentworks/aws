@@ -24,7 +24,7 @@ curl -O https://wordpress.org/latest.tar.gz
 tar -C /var/www/html --strip-components=1 -zxvf latest.tar.gz && rm -f latest.tar.gz
 
 cd /var/www/html
-mkdir /var/www/html/wordpress/wp-content/{uploads,cache}
+mkdir /var/www/html/wp-content/{uploads,cache}
 chown apache:apache /var/www/html/wp-content/{uploads,cache}
 
 # Configure WordPress
