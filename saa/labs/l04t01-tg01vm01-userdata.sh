@@ -1,3 +1,4 @@
+#!/bin/bash
 yum install httpd wget git
 systemctl restart httpd
 cat << 'EOF' >> /var/www/html/index.html
