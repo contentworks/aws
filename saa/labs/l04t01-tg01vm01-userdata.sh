@@ -1,5 +1,5 @@
 #!/bin/bash
-yum install httpd wget git
+yum install httpd wget git -y
 systemctl restart httpd
 cat << 'EOF' >> /var/www/html/index.html
 <html xmlns="http://www.w3.org/1999/xhtml" >
