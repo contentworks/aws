@@ -6,7 +6,7 @@ cat << 'EOF' >> /var/www/html/index.html
     <title>AWSome Website</title>
 </head>
 <body>
-  <h1>Hello! From Target Group 01 / VM 01</h1>
+  <h1>Hello! From Target Group 01 / VM 02</h1>
 </body>
 </html>
 EOF
