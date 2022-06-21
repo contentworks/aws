@@ -1,0 +1,420 @@
+{
+	"AWSTemplateFormatVersion": "2010-09-09",
+	"Description": "Create a basic RHEL machine",
+	"Parameters": {
+		"KeyName": {
+			"Description": "Name of an existing EC2 KeyPair to enable SSH access to the instances",
+			"Type": "AWS::EC2::KeyPair::KeyName",
+			"ConstraintDescription": "must be the name of an existing EC2 KeyPair."
+		}
+	},
+	"Resources": {
+		"ElasticLoadBalancer": {
+			"Type": "AWS::ElasticLoadBalancing::LoadBalancer",
+			"Properties": {
+				"Subnets": [{
+						"Ref": "mySubnet"
+					},
+					{
+						"Ref": "mySubnet2"
+					}
+				],
+				"SecurityGroups": [{
+					"Ref": "WebServerSecurityGroup"
+				}],
+				"Listeners": [{
+					"LoadBalancerPort": "80",
+					"InstancePort": "80",
+					"Protocol": "TCP"
+				}],
+				"HealthCheck": {
+					"Target": {
+						"Fn::Join": [
+							"",
+							[
+								"TCP:",
+								"80"
+							]
+						]
+					},
+					"HealthyThreshold": "2",
+					"UnhealthyThreshold": "3",
+					"Interval": "10",
+					"Timeout": "5"
+				}
+			}
+		},
+		"LaunchConfig": {
+			"Type": "AWS::AutoScaling::LaunchConfiguration",
+			"Metadata": {
+				"AWS::CloudFormation::Init": {
+					"config": {
+						"commands": {
+
+						},
+						"files": {
+							"/etc/cfn/cfn-hup.conf": {
+								"content": {
+									"Fn::Join": [
+										"",
+										[
+											"[main]\n",
+											"stack=",
+											{
+												"Ref": "AWS::StackId"
+											},
+											"\n",
+											"region=",
+											{
+												"Ref": "AWS::Region"
+											},
+											"\n"
+										]
+									]
+								},
+								"mode": "000400",
+								"owner": "root",
+								"group": "root"
+							},
+							"/etc/cfn/hooks.d/cfn-auto-reloader.conf": {
+								"content": {
+									"Fn::Join": [
+										"",
+										[
+											"[cfn-auto-reloader-hook]\n",
+											"triggers=post.update\n",
+											"path=Resources.LaunchConfig.Metadata.AWS::CloudFormation::Init\n",
+											"action=/opt/aws/bin/cfn-init -v ",
+											"         --stack ",
+											{
+												"Ref": "AWS::StackName"
+											},
+											"         --resource LaunchConfig ",
+											"         --region ",
+											{
+												"Ref": "AWS::Region"
+											},
+											"\n",
+											"runas=root\n"
+										]
+									]
+								}
+							}
+						},
+						"services": {
+							"sysvinit": {
+								"cfn-hup": {
+									"enabled": "true",
+									"ensureRunning": "true",
+									"files": [
+										"/etc/cfn/cfn-hup.conf",
+										"/etc/cfn/hooks.d/cfn-auto-reloader.conf"
+									]
+								}
+							}
+						}
+					}
+				}
+			},
+			"Properties": {
+				"ImageId": {
+					"Fn::FindInMap": [
+						"RegionMap",
+						{
+							"Ref": "AWS::Region"
+						},
+						"AMI"
+					]
+				},
+				"InstanceType": "t2.micro",
+				"SecurityGroups": [{
+					"Ref": "WebServerSecurityGroup"
+				}],
+				"KeyName": {
+					"Ref": "KeyName"
+				}
+			}
+		},
+		"Autoscalinggroup": {
+			"Type": "AWS::AutoScaling::AutoScalingGroup",
+			"Properties": {
+				"VPCZoneIdentifier": [{
+						"Ref": "mySubnet"
+					},
+					{
+						"Ref": "mySubnet2"
+					}
+				],
+				"LaunchConfigurationName": {
+					"Ref": "LaunchConfig"
+				},
+				"LoadBalancerNames": [{
+					"Ref": "ElasticLoadBalancer"
+				}],
+				"MinSize": "2",
+				"MaxSize": "3"
+			}
+
+		},
+		"myVPC": {
+			"Type": "AWS::EC2::VPC",
+			"Properties": {
+				"CidrBlock": "10.0.0.0/16",
+				"EnableDnsSupport": "true",
+				"EnableDnsHostnames": "true",
+				"InstanceTenancy": "default",
+				"Tags": [{
+					"Key": "Name",
+					"Value": "DevOps-VPC"
+				}]
+			}
+		},
+		"mySubnet": {
+			"Type": "AWS::EC2::Subnet",
+			"Properties": {
+				"VpcId": {
+					"Ref": "myVPC"
+				},
+				"CidrBlock": "10.0.2.0/24",
+				"AvailabilityZone": {
+					"Fn::Select": [
+						"0",
+						{
+							"Fn::GetAZs": ""
+						}
+					]
+				},
+				"MapPublicIpOnLaunch": "true",
+				"Tags": [{
+					"Key": "Name",
+					"Value": "DevOps-Subnet"
+				}]
+			}
+		},
+		"mySubnet2": {
+			"Type": "AWS::EC2::Subnet",
+			"Properties": {
+				"VpcId": {
+					"Ref": "myVPC"
+				},
+				"CidrBlock": "10.0.1.0/24",
+				"AvailabilityZone": {
+					"Fn::Select": [
+						"1",
+						{
+							"Fn::GetAZs": ""
+						}
+					]
+				},
+				"MapPublicIpOnLaunch": "true",
+				"Tags": [{
+					"Key": "Name",
+					"Value": "DevOps-Subnet-2"
+				}]
+			}
+		},
+		"myInternetGateway": {
+			"Type": "AWS::EC2::InternetGateway",
+			"Properties": {
+				"Tags": [{
+					"Key": "Name",
+					"Value": "DevOps-InternetGateway"
+				}]
+			}
+		},
+		"AttachGateway": {
+			"Type": "AWS::EC2::VPCGatewayAttachment",
+			"Properties": {
+				"VpcId": {
+					"Ref": "myVPC"
+				},
+				"InternetGatewayId": {
+					"Ref": "myInternetGateway"
+				}
+			}
+		},
+		"myRouteTable": {
+			"Type": "AWS::EC2::RouteTable",
+			"Properties": {
+				"VpcId": {
+					"Ref": "myVPC"
+				},
+				"Tags": [{
+					"Key": "Name",
+					"Value": "DevOps-RouteTable"
+				}]
+			}
+		},
+		"mySubnet1RouteTableAssociation": {
+			"Type": "AWS::EC2::SubnetRouteTableAssociation",
+			"Properties": {
+				"SubnetId": {
+					"Ref": "mySubnet"
+				},
+				"RouteTableId": {
+					"Ref": "myRouteTable"
+				}
+			}
+		},
+		"mySubnet2RouteTableAssociation": {
+			"Type": "AWS::EC2::SubnetRouteTableAssociation",
+			"Properties": {
+				"SubnetId": {
+					"Ref": "mySubnet2"
+				},
+				"RouteTableId": {
+					"Ref": "myRouteTable"
+				}
+			}
+		},
+		"myRoute": {
+			"Type": "AWS::EC2::Route",
+			"DependsOn": "myInternetGateway",
+			"Properties": {
+				"RouteTableId": {
+					"Ref": "myRouteTable"
+				},
+				"DestinationCidrBlock": "0.0.0.0/0",
+				"GatewayId": {
+					"Ref": "myInternetGateway"
+				}
+			}
+		},
+		"WebServerSecurityGroup": {
+			"Type": "AWS::EC2::SecurityGroup",
+			"Properties": {
+				"VpcId": {
+					"Ref": "myVPC"
+				},
+				"GroupDescription": "Enable HTTP access via port 80 locked down to the load balancer + SSH access",
+				"SecurityGroupIngress": [{
+						"IpProtocol": "tcp",
+						"FromPort": "80",
+						"ToPort": "80",
+						"CidrIp": "0.0.0.0/0"
+					},
+					{
+						"IpProtocol": "tcp",
+						"FromPort": "8080",
+						"ToPort": "8080",
+						"CidrIp": "0.0.0.0/0"
+					},
+					{
+						"IpProtocol": "tcp",
+						"FromPort": "22",
+						"ToPort": "22",
+						"CidrIp": "0.0.0.0/0"
+					}
+				]
+			}
+		}
+	},
+	"Mappings": {
+		"RegionMap": {
+			"us-east-1": {
+				"AMI": "ami-7372170c",
+				"RecordSetName": "ue1"
+			},
+			"us-east-2": {
+				"AMI": "ami-81f0cce4",
+				"RecordSetName": "ue2"
+			},
+			"us-west-1": {
+				"AMI": "ami-aeb1a9ce",
+				"RecordSetName": "uw1"
+			},
+			"us-west-2": {
+				"AMI": "ami-5993ed21",
+				"RecordSetName": "uw2"
+			},
+			"ca-central-1": {
+				"AMI": "ami-7d2eae19",
+				"RecordSetName": "cc1"
+			},
+			"eu-west-1": {
+				"AMI": "ami-a5b887dc",
+				"RecordSetName": "ew1"
+			},
+			"eu-central-1": {
+				"AMI": "ami-15b991fe",
+				"RecordSetName": "ec1"
+			},
+			"eu-west-2": {
+				"AMI": "ami-e8b9558f",
+				"RecordSetName": "ew2"
+			},
+			"eu-west-3": {
+				"AMI": "ami-606fde1d",
+				"RecordSetName": "ew3"
+			},
+			"ap-southeast-1": {
+				"AMI": "ami-d07845ac",
+				"RecordSetName": "as1"
+			},
+			"ap-southeast-2": {
+				"AMI": "ami-105f8f72",
+				"RecordSetName": "as2"
+			},
+			"ap-northeast-1": {
+				"AMI": "ami-7f4bb600",
+				"RecordSetName": "an1"
+			},
+			"ap-northeast-2": {
+				"AMI": "ami-0b2b97bdf14fa00f9",
+				"RecordSetName": "an2"
+			},
+			"ap-south-1": {
+				"AMI": "ami-09e7ee824813f5252",
+				"RecordSetName": "as1"
+			},
+			"sa-east-1": {
+				"AMI": "ami-40e8b72c",
+				"RecordSetName": "se1"
+			}
+		}
+	},
+	"Outputs": {
+
+		"S3BucketName": {
+			"Value": "imagegallery-demo",
+			"Description": "Name of the  Amazon S3 bucket."
+		},
+		"VPCout": {
+			"Value": {
+				"Ref": "myVPC"
+			}
+		},
+		"Subout1": {
+			"Value": {
+				"Ref": "mySubnet"
+			}
+		},
+		"Subout2": {
+			"Value": {
+				"Ref": "mySubnet2"
+			}
+		},
+		"StackName": {
+			"Value": {
+				"Ref": "AWS::StackName"
+			}
+		},
+		"URL": {
+			"Description": "The URL of the website",
+			"Value": {
+				"Fn::Join": [
+					"",
+					[
+						"http://",
+						{
+							"Fn::GetAtt": [
+								"ElasticLoadBalancer",
+								"DNSName"
+							]
+						}
+					]
+				]
+			}
+		}
+	}
+}
