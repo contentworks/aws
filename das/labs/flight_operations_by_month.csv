@@ -1,0 +1,1543 @@
+DataExtractDate,ReportPeriod,FlightType,Arrival_Departure,Domestic_International,FlightOpsCount
+5/1/2014 0:00,1/1/2006 0:00,Charter,Arrival,Domestic,57
+5/1/2014 0:00,1/1/2006 0:00,Charter,Arrival,International,299
+5/1/2014 0:00,1/1/2006 0:00,Charter,Departure,Domestic,62
+5/1/2014 0:00,1/1/2006 0:00,Charter,Departure,International,5
+5/1/2014 0:00,1/1/2006 0:00,Commuter,Arrival,Domestic,5996
+5/1/2014 0:00,1/1/2006 0:00,Commuter,Arrival,International,31
+5/1/2014 0:00,1/1/2006 0:00,Commuter,Departure,Domestic,5995
+5/1/2014 0:00,1/1/2006 0:00,Commuter,Departure,International,31
+5/1/2014 0:00,1/1/2006 0:00,Scheduled,Arrival,Domestic,13695
+5/1/2014 0:00,1/1/2006 0:00,Scheduled,Arrival,International,4026
+5/1/2014 0:00,1/1/2006 0:00,Scheduled,Departure,Domestic,13666
+5/1/2014 0:00,1/1/2006 0:00,Scheduled,Departure,International,4085
+5/1/2014 0:00,2/1/2006 0:00,Charter,Arrival,Domestic,22
+5/1/2014 0:00,2/1/2006 0:00,Charter,Arrival,International,101
+5/1/2014 0:00,2/1/2006 0:00,Charter,Departure,Domestic,21
+5/1/2014 0:00,2/1/2006 0:00,Charter,Departure,International,100
+5/1/2014 0:00,2/1/2006 0:00,Commuter,Arrival,Domestic,5525
+5/1/2014 0:00,2/1/2006 0:00,Commuter,Arrival,International,28
+5/1/2014 0:00,2/1/2006 0:00,Commuter,Departure,Domestic,5525
+5/1/2014 0:00,2/1/2006 0:00,Commuter,Departure,International,28
+5/1/2014 0:00,2/1/2006 0:00,Scheduled,Arrival,Domestic,12308
+5/1/2014 0:00,2/1/2006 0:00,Scheduled,Arrival,International,3381
+5/1/2014 0:00,2/1/2006 0:00,Scheduled,Departure,Domestic,12322
+5/1/2014 0:00,2/1/2006 0:00,Scheduled,Departure,International,3398
+5/1/2014 0:00,3/1/2006 0:00,Charter,Arrival,Domestic,51
+5/1/2014 0:00,3/1/2006 0:00,Charter,Arrival,International,4
+5/1/2014 0:00,3/1/2006 0:00,Charter,Departure,Domestic,47
+5/1/2014 0:00,3/1/2006 0:00,Charter,Departure,International,5
+5/1/2014 0:00,3/1/2006 0:00,Commuter,Arrival,Domestic,6217
+5/1/2014 0:00,3/1/2006 0:00,Commuter,Arrival,International,31
+5/1/2014 0:00,3/1/2006 0:00,Commuter,Departure,Domestic,6216
+5/1/2014 0:00,3/1/2006 0:00,Commuter,Departure,International,30
+5/1/2014 0:00,3/1/2006 0:00,Scheduled,Arrival,Domestic,13925
+5/1/2014 0:00,3/1/2006 0:00,Scheduled,Arrival,International,3952
+5/1/2014 0:00,3/1/2006 0:00,Scheduled,Departure,Domestic,13963
+5/1/2014 0:00,3/1/2006 0:00,Scheduled,Departure,International,3961
+5/1/2014 0:00,4/1/2006 0:00,Charter,Arrival,Domestic,57
+5/1/2014 0:00,4/1/2006 0:00,Charter,Arrival,International,2
+5/1/2014 0:00,4/1/2006 0:00,Charter,Departure,Domestic,52
+5/1/2014 0:00,4/1/2006 0:00,Commuter,Arrival,Domestic,5885
+5/1/2014 0:00,4/1/2006 0:00,Commuter,Arrival,International,31
+5/1/2014 0:00,4/1/2006 0:00,Commuter,Departure,Domestic,5886
+5/1/2014 0:00,4/1/2006 0:00,Commuter,Departure,International,31
+5/1/2014 0:00,4/1/2006 0:00,Scheduled,Arrival,Domestic,13420
+5/1/2014 0:00,4/1/2006 0:00,Scheduled,Arrival,International,3884
+5/1/2014 0:00,4/1/2006 0:00,Scheduled,Departure,Domestic,13461
+5/1/2014 0:00,4/1/2006 0:00,Scheduled,Departure,International,3897
+5/1/2014 0:00,5/1/2006 0:00,Charter,Arrival,Domestic,26
+5/1/2014 0:00,5/1/2006 0:00,Charter,Arrival,International,5
+5/1/2014 0:00,5/1/2006 0:00,Charter,Departure,Domestic,24
+5/1/2014 0:00,5/1/2006 0:00,Charter,Departure,International,3
+5/1/2014 0:00,5/1/2006 0:00,Commuter,Arrival,Domestic,6089
+5/1/2014 0:00,5/1/2006 0:00,Commuter,Arrival,International,41
+5/1/2014 0:00,5/1/2006 0:00,Commuter,Departure,Domestic,6089
+5/1/2014 0:00,5/1/2006 0:00,Commuter,Departure,International,41
+5/1/2014 0:00,5/1/2006 0:00,Scheduled,Arrival,Domestic,14126
+5/1/2014 0:00,5/1/2006 0:00,Scheduled,Arrival,International,3968
+5/1/2014 0:00,5/1/2006 0:00,Scheduled,Departure,Domestic,14138
+5/1/2014 0:00,5/1/2006 0:00,Scheduled,Departure,International,3984
+5/1/2014 0:00,6/1/2006 0:00,Charter,Arrival,Domestic,18
+5/1/2014 0:00,6/1/2006 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,6/1/2006 0:00,Charter,Departure,Domestic,18
+5/1/2014 0:00,6/1/2006 0:00,Commuter,Arrival,Domestic,5980
+5/1/2014 0:00,6/1/2006 0:00,Commuter,Arrival,International,39
+5/1/2014 0:00,6/1/2006 0:00,Commuter,Departure,Domestic,5980
+5/1/2014 0:00,6/1/2006 0:00,Commuter,Departure,International,39
+5/1/2014 0:00,6/1/2006 0:00,Scheduled,Arrival,Domestic,14208
+5/1/2014 0:00,6/1/2006 0:00,Scheduled,Arrival,International,4030
+5/1/2014 0:00,6/1/2006 0:00,Scheduled,Departure,Domestic,14211
+5/1/2014 0:00,6/1/2006 0:00,Scheduled,Departure,International,4028
+5/1/2014 0:00,7/1/2006 0:00,Charter,Arrival,Domestic,16
+5/1/2014 0:00,7/1/2006 0:00,Charter,Arrival,International,2
+5/1/2014 0:00,7/1/2006 0:00,Charter,Departure,Domestic,14
+5/1/2014 0:00,7/1/2006 0:00,Commuter,Arrival,Domestic,6092
+5/1/2014 0:00,7/1/2006 0:00,Commuter,Arrival,International,39
+5/1/2014 0:00,7/1/2006 0:00,Commuter,Departure,Domestic,6092
+5/1/2014 0:00,7/1/2006 0:00,Commuter,Departure,International,39
+5/1/2014 0:00,7/1/2006 0:00,Scheduled,Arrival,Domestic,14866
+5/1/2014 0:00,7/1/2006 0:00,Scheduled,Arrival,International,4483
+5/1/2014 0:00,7/1/2006 0:00,Scheduled,Departure,Domestic,14883
+5/1/2014 0:00,7/1/2006 0:00,Scheduled,Departure,International,4506
+5/1/2014 0:00,8/1/2006 0:00,Charter,Arrival,Domestic,15
+5/1/2014 0:00,8/1/2006 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,8/1/2006 0:00,Charter,Departure,Domestic,16
+5/1/2014 0:00,8/1/2006 0:00,Commuter,Arrival,Domestic,6134
+5/1/2014 0:00,8/1/2006 0:00,Commuter,Arrival,International,40
+5/1/2014 0:00,8/1/2006 0:00,Commuter,Departure,Domestic,6134
+5/1/2014 0:00,8/1/2006 0:00,Commuter,Departure,International,40
+5/1/2014 0:00,8/1/2006 0:00,Scheduled,Arrival,Domestic,15243
+5/1/2014 0:00,8/1/2006 0:00,Scheduled,Arrival,International,4303
+5/1/2014 0:00,8/1/2006 0:00,Scheduled,Departure,Domestic,15272
+5/1/2014 0:00,8/1/2006 0:00,Scheduled,Departure,International,4328
+5/1/2014 0:00,9/1/2006 0:00,Charter,Arrival,Domestic,24
+5/1/2014 0:00,9/1/2006 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,9/1/2006 0:00,Charter,Departure,Domestic,18
+5/1/2014 0:00,9/1/2006 0:00,Commuter,Arrival,Domestic,5903
+5/1/2014 0:00,9/1/2006 0:00,Commuter,Arrival,International,37
+5/1/2014 0:00,9/1/2006 0:00,Commuter,Departure,Domestic,5903
+5/1/2014 0:00,9/1/2006 0:00,Commuter,Departure,International,37
+5/1/2014 0:00,9/1/2006 0:00,Scheduled,Arrival,Domestic,13832
+5/1/2014 0:00,9/1/2006 0:00,Scheduled,Arrival,International,3823
+5/1/2014 0:00,9/1/2006 0:00,Scheduled,Departure,Domestic,13815
+5/1/2014 0:00,9/1/2006 0:00,Scheduled,Departure,International,3865
+5/1/2014 0:00,10/1/2006 0:00,Charter,Arrival,Domestic,48
+5/1/2014 0:00,10/1/2006 0:00,Charter,Arrival,International,285
+5/1/2014 0:00,10/1/2006 0:00,Charter,Departure,Domestic,50
+5/1/2014 0:00,10/1/2006 0:00,Commuter,Arrival,Domestic,6135
+5/1/2014 0:00,10/1/2006 0:00,Commuter,Arrival,International,40
+5/1/2014 0:00,10/1/2006 0:00,Commuter,Departure,Domestic,6135
+5/1/2014 0:00,10/1/2006 0:00,Commuter,Departure,International,40
+5/1/2014 0:00,10/1/2006 0:00,Scheduled,Arrival,Domestic,14292
+5/1/2014 0:00,10/1/2006 0:00,Scheduled,Arrival,International,3605
+5/1/2014 0:00,10/1/2006 0:00,Scheduled,Departure,Domestic,14332
+5/1/2014 0:00,10/1/2006 0:00,Scheduled,Departure,International,3898
+5/1/2014 0:00,11/1/2006 0:00,Charter,Arrival,Domestic,48
+5/1/2014 0:00,11/1/2006 0:00,Charter,Arrival,International,3
+5/1/2014 0:00,11/1/2006 0:00,Charter,Departure,Domestic,50
+5/1/2014 0:00,11/1/2006 0:00,Charter,Departure,International,2
+5/1/2014 0:00,11/1/2006 0:00,Commuter,Arrival,Domestic,5772
+5/1/2014 0:00,11/1/2006 0:00,Commuter,Arrival,International,39
+5/1/2014 0:00,11/1/2006 0:00,Commuter,Departure,Domestic,5772
+5/1/2014 0:00,11/1/2006 0:00,Commuter,Departure,International,39
+5/1/2014 0:00,11/1/2006 0:00,Scheduled,Arrival,Domestic,13855
+5/1/2014 0:00,11/1/2006 0:00,Scheduled,Arrival,International,3706
+5/1/2014 0:00,11/1/2006 0:00,Scheduled,Departure,Domestic,13855
+5/1/2014 0:00,11/1/2006 0:00,Scheduled,Departure,International,3718
+5/1/2014 0:00,12/1/2006 0:00,Charter,Arrival,Domestic,46
+5/1/2014 0:00,12/1/2006 0:00,Charter,Arrival,International,6
+5/1/2014 0:00,12/1/2006 0:00,Charter,Departure,Domestic,44
+5/1/2014 0:00,12/1/2006 0:00,Charter,Departure,International,3
+5/1/2014 0:00,12/1/2006 0:00,Commuter,Arrival,Domestic,6144
+5/1/2014 0:00,12/1/2006 0:00,Commuter,Arrival,International,40
+5/1/2014 0:00,12/1/2006 0:00,Commuter,Departure,Domestic,6144
+5/1/2014 0:00,12/1/2006 0:00,Commuter,Departure,International,40
+5/1/2014 0:00,12/1/2006 0:00,Scheduled,Arrival,Domestic,14417
+5/1/2014 0:00,12/1/2006 0:00,Scheduled,Arrival,International,4086
+5/1/2014 0:00,12/1/2006 0:00,Scheduled,Departure,Domestic,14474
+5/1/2014 0:00,12/1/2006 0:00,Scheduled,Departure,International,4103
+5/1/2014 0:00,1/1/2007 0:00,Charter,Arrival,Domestic,38
+5/1/2014 0:00,1/1/2007 0:00,Charter,Arrival,International,3
+5/1/2014 0:00,1/1/2007 0:00,Charter,Departure,Domestic,42
+5/1/2014 0:00,1/1/2007 0:00,Charter,Departure,International,3
+5/1/2014 0:00,1/1/2007 0:00,Commuter,Arrival,Domestic,6081
+5/1/2014 0:00,1/1/2007 0:00,Commuter,Arrival,International,94
+5/1/2014 0:00,1/1/2007 0:00,Commuter,Departure,Domestic,6081
+5/1/2014 0:00,1/1/2007 0:00,Commuter,Departure,International,94
+5/1/2014 0:00,1/1/2007 0:00,Scheduled,Arrival,Domestic,14140
+5/1/2014 0:00,1/1/2007 0:00,Scheduled,Arrival,International,4301
+5/1/2014 0:00,1/1/2007 0:00,Scheduled,Departure,Domestic,14165
+5/1/2014 0:00,1/1/2007 0:00,Scheduled,Departure,International,4308
+5/1/2014 0:00,2/1/2007 0:00,Charter,Arrival,Domestic,14
+5/1/2014 0:00,2/1/2007 0:00,Charter,Arrival,International,7
+5/1/2014 0:00,2/1/2007 0:00,Charter,Departure,Domestic,16
+5/1/2014 0:00,2/1/2007 0:00,Charter,Departure,International,5
+5/1/2014 0:00,2/1/2007 0:00,Commuter,Arrival,Domestic,5470
+5/1/2014 0:00,2/1/2007 0:00,Commuter,Arrival,International,83
+5/1/2014 0:00,2/1/2007 0:00,Commuter,Departure,Domestic,5470
+5/1/2014 0:00,2/1/2007 0:00,Commuter,Departure,International,83
+5/1/2014 0:00,2/1/2007 0:00,Scheduled,Arrival,Domestic,12734
+5/1/2014 0:00,2/1/2007 0:00,Scheduled,Arrival,International,3779
+5/1/2014 0:00,2/1/2007 0:00,Scheduled,Departure,Domestic,12768
+5/1/2014 0:00,2/1/2007 0:00,Scheduled,Departure,International,3783
+5/1/2014 0:00,3/1/2007 0:00,Charter,Arrival,Domestic,33
+5/1/2014 0:00,3/1/2007 0:00,Charter,Arrival,International,4
+5/1/2014 0:00,3/1/2007 0:00,Charter,Departure,Domestic,33
+5/1/2014 0:00,3/1/2007 0:00,Charter,Departure,International,4
+5/1/2014 0:00,3/1/2007 0:00,Commuter,Arrival,Domestic,6105
+5/1/2014 0:00,3/1/2007 0:00,Commuter,Arrival,International,93
+5/1/2014 0:00,3/1/2007 0:00,Commuter,Departure,Domestic,6105
+5/1/2014 0:00,3/1/2007 0:00,Commuter,Departure,International,93
+5/1/2014 0:00,3/1/2007 0:00,Scheduled,Arrival,Domestic,14736
+5/1/2014 0:00,3/1/2007 0:00,Scheduled,Arrival,International,4098
+5/1/2014 0:00,3/1/2007 0:00,Scheduled,Departure,Domestic,14830
+5/1/2014 0:00,3/1/2007 0:00,Scheduled,Departure,International,4100
+5/1/2014 0:00,4/1/2007 0:00,Charter,Arrival,Domestic,26
+5/1/2014 0:00,4/1/2007 0:00,Charter,Arrival,International,2
+5/1/2014 0:00,4/1/2007 0:00,Charter,Departure,Domestic,24
+5/1/2014 0:00,4/1/2007 0:00,Commuter,Arrival,Domestic,5711
+5/1/2014 0:00,4/1/2007 0:00,Commuter,Arrival,International,89
+5/1/2014 0:00,4/1/2007 0:00,Commuter,Departure,Domestic,5711
+5/1/2014 0:00,4/1/2007 0:00,Commuter,Departure,International,89
+5/1/2014 0:00,4/1/2007 0:00,Scheduled,Arrival,Domestic,14132
+5/1/2014 0:00,4/1/2007 0:00,Scheduled,Arrival,International,4070
+5/1/2014 0:00,4/1/2007 0:00,Scheduled,Departure,Domestic,14192
+5/1/2014 0:00,4/1/2007 0:00,Scheduled,Departure,International,4085
+5/1/2014 0:00,5/1/2007 0:00,Charter,Arrival,Domestic,12
+5/1/2014 0:00,5/1/2007 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,5/1/2007 0:00,Charter,Departure,Domestic,13
+5/1/2014 0:00,5/1/2007 0:00,Charter,Departure,International,2
+5/1/2014 0:00,5/1/2007 0:00,Commuter,Arrival,Domestic,5752
+5/1/2014 0:00,5/1/2007 0:00,Commuter,Arrival,International,93
+5/1/2014 0:00,5/1/2007 0:00,Commuter,Departure,Domestic,5747
+5/1/2014 0:00,5/1/2007 0:00,Commuter,Departure,International,93
+5/1/2014 0:00,5/1/2007 0:00,Scheduled,Arrival,Domestic,14737
+5/1/2014 0:00,5/1/2007 0:00,Scheduled,Arrival,International,4104
+5/1/2014 0:00,5/1/2007 0:00,Scheduled,Departure,Domestic,14792
+5/1/2014 0:00,5/1/2007 0:00,Scheduled,Departure,International,4117
+5/1/2014 0:00,6/1/2007 0:00,Charter,Arrival,Domestic,12
+5/1/2014 0:00,6/1/2007 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,6/1/2007 0:00,Charter,Departure,Domestic,9
+5/1/2014 0:00,6/1/2007 0:00,Commuter,Arrival,Domestic,5673
+5/1/2014 0:00,6/1/2007 0:00,Commuter,Arrival,International,90
+5/1/2014 0:00,6/1/2007 0:00,Commuter,Departure,Domestic,5673
+5/1/2014 0:00,6/1/2007 0:00,Commuter,Departure,International,90
+5/1/2014 0:00,6/1/2007 0:00,Scheduled,Arrival,Domestic,14828
+5/1/2014 0:00,6/1/2007 0:00,Scheduled,Arrival,International,4232
+5/1/2014 0:00,6/1/2007 0:00,Scheduled,Departure,Domestic,14896
+5/1/2014 0:00,6/1/2007 0:00,Scheduled,Departure,International,4268
+5/1/2014 0:00,7/1/2007 0:00,Charter,Arrival,Domestic,21
+5/1/2014 0:00,7/1/2007 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,7/1/2007 0:00,Charter,Departure,Domestic,18
+5/1/2014 0:00,7/1/2007 0:00,Charter,Departure,International,1
+5/1/2014 0:00,7/1/2007 0:00,Commuter,Arrival,Domestic,5898
+5/1/2014 0:00,7/1/2007 0:00,Commuter,Arrival,International,93
+5/1/2014 0:00,7/1/2007 0:00,Commuter,Departure,Domestic,5898
+5/1/2014 0:00,7/1/2007 0:00,Commuter,Departure,International,93
+5/1/2014 0:00,7/1/2007 0:00,Scheduled,Arrival,Domestic,16200
+5/1/2014 0:00,7/1/2007 0:00,Scheduled,Arrival,International,4729
+5/1/2014 0:00,7/1/2007 0:00,Scheduled,Departure,Domestic,16319
+5/1/2014 0:00,7/1/2007 0:00,Scheduled,Departure,International,4769
+5/1/2014 0:00,8/1/2007 0:00,Charter,Arrival,Domestic,7
+5/1/2014 0:00,8/1/2007 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,8/1/2007 0:00,Charter,Departure,Domestic,8
+5/1/2014 0:00,8/1/2007 0:00,Commuter,Arrival,Domestic,5931
+5/1/2014 0:00,8/1/2007 0:00,Commuter,Arrival,International,93
+5/1/2014 0:00,8/1/2007 0:00,Commuter,Departure,Domestic,5931
+5/1/2014 0:00,8/1/2007 0:00,Commuter,Departure,International,93
+5/1/2014 0:00,8/1/2007 0:00,Scheduled,Arrival,Domestic,16310
+5/1/2014 0:00,8/1/2007 0:00,Scheduled,Arrival,International,4735
+5/1/2014 0:00,8/1/2007 0:00,Scheduled,Departure,Domestic,16468
+5/1/2014 0:00,8/1/2007 0:00,Scheduled,Departure,International,4726
+5/1/2014 0:00,9/1/2007 0:00,Charter,Arrival,Domestic,24
+5/1/2014 0:00,9/1/2007 0:00,Charter,Arrival,International,3
+5/1/2014 0:00,9/1/2007 0:00,Charter,Departure,Domestic,20
+5/1/2014 0:00,9/1/2007 0:00,Commuter,Arrival,Domestic,5690
+5/1/2014 0:00,9/1/2007 0:00,Commuter,Arrival,International,90
+5/1/2014 0:00,9/1/2007 0:00,Commuter,Departure,Domestic,5690
+5/1/2014 0:00,9/1/2007 0:00,Commuter,Departure,International,90
+5/1/2014 0:00,9/1/2007 0:00,Scheduled,Arrival,Domestic,15056
+5/1/2014 0:00,9/1/2007 0:00,Scheduled,Arrival,International,4146
+5/1/2014 0:00,9/1/2007 0:00,Scheduled,Departure,Domestic,15186
+5/1/2014 0:00,9/1/2007 0:00,Scheduled,Departure,International,4137
+5/1/2014 0:00,10/1/2007 0:00,Charter,Arrival,Domestic,40
+5/1/2014 0:00,10/1/2007 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,10/1/2007 0:00,Charter,Departure,Domestic,39
+5/1/2014 0:00,10/1/2007 0:00,Charter,Departure,International,1
+5/1/2014 0:00,10/1/2007 0:00,Commuter,Arrival,Domestic,6030
+5/1/2014 0:00,10/1/2007 0:00,Commuter,Arrival,International,94
+5/1/2014 0:00,10/1/2007 0:00,Commuter,Departure,Domestic,6030
+5/1/2014 0:00,10/1/2007 0:00,Commuter,Departure,International,94
+5/1/2014 0:00,10/1/2007 0:00,Scheduled,Arrival,Domestic,15646
+5/1/2014 0:00,10/1/2007 0:00,Scheduled,Arrival,International,4070
+5/1/2014 0:00,10/1/2007 0:00,Scheduled,Departure,Domestic,15737
+5/1/2014 0:00,10/1/2007 0:00,Scheduled,Departure,International,4060
+5/1/2014 0:00,11/1/2007 0:00,Charter,Arrival,Domestic,35
+5/1/2014 0:00,11/1/2007 0:00,Charter,Arrival,International,3
+5/1/2014 0:00,11/1/2007 0:00,Charter,Departure,Domestic,33
+5/1/2014 0:00,11/1/2007 0:00,Charter,Departure,International,3
+5/1/2014 0:00,11/1/2007 0:00,Commuter,Arrival,Domestic,5757
+5/1/2014 0:00,11/1/2007 0:00,Commuter,Arrival,International,100
+5/1/2014 0:00,11/1/2007 0:00,Commuter,Departure,Domestic,5757
+5/1/2014 0:00,11/1/2007 0:00,Commuter,Departure,International,100
+5/1/2014 0:00,11/1/2007 0:00,Scheduled,Arrival,Domestic,15163
+5/1/2014 0:00,11/1/2007 0:00,Scheduled,Arrival,International,4004
+5/1/2014 0:00,11/1/2007 0:00,Scheduled,Departure,Domestic,15246
+5/1/2014 0:00,11/1/2007 0:00,Scheduled,Departure,International,3981
+5/1/2014 0:00,12/1/2007 0:00,Charter,Arrival,Domestic,37
+5/1/2014 0:00,12/1/2007 0:00,Charter,Arrival,International,2
+5/1/2014 0:00,12/1/2007 0:00,Charter,Departure,Domestic,31
+5/1/2014 0:00,12/1/2007 0:00,Charter,Departure,International,1
+5/1/2014 0:00,12/1/2007 0:00,Commuter,Arrival,Domestic,5897
+5/1/2014 0:00,12/1/2007 0:00,Commuter,Arrival,International,102
+5/1/2014 0:00,12/1/2007 0:00,Commuter,Departure,Domestic,5897
+5/1/2014 0:00,12/1/2007 0:00,Commuter,Departure,International,102
+5/1/2014 0:00,12/1/2007 0:00,Scheduled,Arrival,Domestic,15517
+5/1/2014 0:00,12/1/2007 0:00,Scheduled,Arrival,International,4475
+5/1/2014 0:00,12/1/2007 0:00,Scheduled,Departure,Domestic,15619
+5/1/2014 0:00,12/1/2007 0:00,Scheduled,Departure,International,4449
+5/1/2014 0:00,1/1/2008 0:00,Charter,Arrival,Domestic,38
+5/1/2014 0:00,1/1/2008 0:00,Charter,Arrival,International,8
+5/1/2014 0:00,1/1/2008 0:00,Charter,Departure,Domestic,42
+5/1/2014 0:00,1/1/2008 0:00,Charter,Departure,International,7
+5/1/2014 0:00,1/1/2008 0:00,Commuter,Arrival,Domestic,5315
+5/1/2014 0:00,1/1/2008 0:00,Commuter,Arrival,International,104
+5/1/2014 0:00,1/1/2008 0:00,Commuter,Departure,Domestic,5315
+5/1/2014 0:00,1/1/2008 0:00,Commuter,Departure,International,104
+5/1/2014 0:00,1/1/2008 0:00,Scheduled,Arrival,Domestic,14879
+5/1/2014 0:00,1/1/2008 0:00,Scheduled,Arrival,International,4295
+5/1/2014 0:00,1/1/2008 0:00,Scheduled,Departure,Domestic,14939
+5/1/2014 0:00,1/1/2008 0:00,Scheduled,Departure,International,4302
+5/1/2014 0:00,2/1/2008 0:00,Charter,Arrival,Domestic,16
+5/1/2014 0:00,2/1/2008 0:00,Charter,Arrival,International,5
+5/1/2014 0:00,2/1/2008 0:00,Charter,Departure,Domestic,19
+5/1/2014 0:00,2/1/2008 0:00,Charter,Departure,International,5
+5/1/2014 0:00,2/1/2008 0:00,Commuter,Arrival,Domestic,4949
+5/1/2014 0:00,2/1/2008 0:00,Commuter,Arrival,International,116
+5/1/2014 0:00,2/1/2008 0:00,Commuter,Departure,Domestic,4949
+5/1/2014 0:00,2/1/2008 0:00,Commuter,Departure,International,116
+5/1/2014 0:00,2/1/2008 0:00,Scheduled,Arrival,Domestic,13762
+5/1/2014 0:00,2/1/2008 0:00,Scheduled,Arrival,International,3877
+5/1/2014 0:00,2/1/2008 0:00,Scheduled,Departure,Domestic,13820
+5/1/2014 0:00,2/1/2008 0:00,Scheduled,Departure,International,3888
+5/1/2014 0:00,3/1/2008 0:00,Charter,Arrival,Domestic,39
+5/1/2014 0:00,3/1/2008 0:00,Charter,Arrival,International,5
+5/1/2014 0:00,3/1/2008 0:00,Charter,Departure,Domestic,38
+5/1/2014 0:00,3/1/2008 0:00,Charter,Departure,International,6
+5/1/2014 0:00,3/1/2008 0:00,Commuter,Arrival,Domestic,5169
+5/1/2014 0:00,3/1/2008 0:00,Commuter,Arrival,International,137
+5/1/2014 0:00,3/1/2008 0:00,Commuter,Departure,Domestic,5169
+5/1/2014 0:00,3/1/2008 0:00,Commuter,Departure,International,137
+5/1/2014 0:00,3/1/2008 0:00,Scheduled,Arrival,Domestic,14748
+5/1/2014 0:00,3/1/2008 0:00,Scheduled,Arrival,International,4244
+5/1/2014 0:00,3/1/2008 0:00,Scheduled,Departure,Domestic,14815
+5/1/2014 0:00,3/1/2008 0:00,Scheduled,Departure,International,4236
+5/1/2014 0:00,4/1/2008 0:00,Charter,Arrival,Domestic,24
+5/1/2014 0:00,4/1/2008 0:00,Charter,Arrival,International,5
+5/1/2014 0:00,4/1/2008 0:00,Charter,Departure,Domestic,26
+5/1/2014 0:00,4/1/2008 0:00,Charter,Departure,International,4
+5/1/2014 0:00,4/1/2008 0:00,Commuter,Arrival,Domestic,5167
+5/1/2014 0:00,4/1/2008 0:00,Commuter,Arrival,International,116
+5/1/2014 0:00,4/1/2008 0:00,Commuter,Departure,Domestic,5167
+5/1/2014 0:00,4/1/2008 0:00,Commuter,Departure,International,116
+5/1/2014 0:00,4/1/2008 0:00,Scheduled,Arrival,Domestic,14310
+5/1/2014 0:00,4/1/2008 0:00,Scheduled,Arrival,International,4050
+5/1/2014 0:00,4/1/2008 0:00,Scheduled,Departure,Domestic,14365
+5/1/2014 0:00,4/1/2008 0:00,Scheduled,Departure,International,4043
+5/1/2014 0:00,5/1/2008 0:00,Charter,Arrival,Domestic,13
+5/1/2014 0:00,5/1/2008 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,5/1/2008 0:00,Charter,Departure,Domestic,15
+5/1/2014 0:00,5/1/2008 0:00,Charter,Departure,International,1
+5/1/2014 0:00,5/1/2008 0:00,Commuter,Arrival,Domestic,5127
+5/1/2014 0:00,5/1/2008 0:00,Commuter,Arrival,International,118
+5/1/2014 0:00,5/1/2008 0:00,Commuter,Departure,Domestic,5127
+5/1/2014 0:00,5/1/2008 0:00,Commuter,Departure,International,118
+5/1/2014 0:00,5/1/2008 0:00,Scheduled,Arrival,Domestic,15090
+5/1/2014 0:00,5/1/2008 0:00,Scheduled,Arrival,International,4081
+5/1/2014 0:00,5/1/2008 0:00,Scheduled,Departure,Domestic,15117
+5/1/2014 0:00,5/1/2008 0:00,Scheduled,Departure,International,4095
+5/1/2014 0:00,6/1/2008 0:00,Charter,Arrival,Domestic,23
+5/1/2014 0:00,6/1/2008 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,6/1/2008 0:00,Charter,Departure,Domestic,21
+5/1/2014 0:00,6/1/2008 0:00,Commuter,Arrival,Domestic,5092
+5/1/2014 0:00,6/1/2008 0:00,Commuter,Arrival,International,119
+5/1/2014 0:00,6/1/2008 0:00,Commuter,Departure,Domestic,5092
+5/1/2014 0:00,6/1/2008 0:00,Commuter,Departure,International,119
+5/1/2014 0:00,6/1/2008 0:00,Scheduled,Arrival,Domestic,15725
+5/1/2014 0:00,6/1/2008 0:00,Scheduled,Arrival,International,4161
+5/1/2014 0:00,6/1/2008 0:00,Scheduled,Departure,Domestic,15612
+5/1/2014 0:00,6/1/2008 0:00,Scheduled,Departure,International,4172
+5/1/2014 0:00,7/1/2008 0:00,Charter,Arrival,Domestic,12
+5/1/2014 0:00,7/1/2008 0:00,Charter,Arrival,International,2
+5/1/2014 0:00,7/1/2008 0:00,Charter,Departure,Domestic,13
+5/1/2014 0:00,7/1/2008 0:00,Commuter,Arrival,Domestic,5152
+5/1/2014 0:00,7/1/2008 0:00,Commuter,Arrival,International,98
+5/1/2014 0:00,7/1/2008 0:00,Commuter,Departure,Domestic,5152
+5/1/2014 0:00,7/1/2008 0:00,Commuter,Departure,International,98
+5/1/2014 0:00,7/1/2008 0:00,Scheduled,Arrival,Domestic,16119
+5/1/2014 0:00,7/1/2008 0:00,Scheduled,Arrival,International,4356
+5/1/2014 0:00,7/1/2008 0:00,Scheduled,Departure,Domestic,16228
+5/1/2014 0:00,7/1/2008 0:00,Scheduled,Departure,International,4346
+5/1/2014 0:00,8/1/2008 0:00,Charter,Arrival,Domestic,13
+5/1/2014 0:00,8/1/2008 0:00,Charter,Arrival,International,1
+5/1/2014 0:00,8/1/2008 0:00,Charter,Departure,Domestic,12
+5/1/2014 0:00,8/1/2008 0:00,Charter,Departure,International,2
+5/1/2014 0:00,8/1/2008 0:00,Commuter,Arrival,Domestic,5069
+5/1/2014 0:00,8/1/2008 0:00,Commuter,Arrival,International,93
+5/1/2014 0:00,8/1/2008 0:00,Commuter,Departure,Domestic,5069
+5/1/2014 0:00,8/1/2008 0:00,Commuter,Departure,International,93
+5/1/2014 0:00,8/1/2008 0:00,Scheduled,Arrival,Domestic,15787
+5/1/2014 0:00,8/1/2008 0:00,Scheduled,Arrival,International,4252
+5/1/2014 0:00,8/1/2008 0:00,Scheduled,Departure,Domestic,15874
+5/1/2014 0:00,8/1/2008 0:00,Scheduled,Departure,International,4254
+5/1/2014 0:00,9/1/2008 0:00,Charter,Arrival,Domestic,14
+5/1/2014 0:00,9/1/2008 0:00,Charter,Arrival,International,3
+5/1/2014 0:00,9/1/2008 0:00,Charter,Departure,Domestic,14
+5/1/2014 0:00,9/1/2008 0:00,Charter,Departure,International,3
+5/1/2014 0:00,9/1/2008 0:00,Commuter,Arrival,Domestic,4715
+5/1/2014 0:00,9/1/2008 0:00,Commuter,Arrival,International,108
+5/1/2014 0:00,9/1/2008 0:00,Commuter,Departure,Domestic,4715
+5/1/2014 0:00,9/1/2008 0:00,Commuter,Departure,International,108
+5/1/2014 0:00,9/1/2008 0:00,Scheduled,Arrival,Domestic,12619
+5/1/2014 0:00,9/1/2008 0:00,Scheduled,Arrival,International,3665
+5/1/2014 0:00,9/1/2008 0:00,Scheduled,Departure,Domestic,12649
+5/1/2014 0:00,9/1/2008 0:00,Scheduled,Departure,International,3673
+5/1/2014 0:00,10/1/2008 0:00,Charter,Arrival,Domestic,21
+5/1/2014 0:00,10/1/2008 0:00,Charter,Departure,Domestic,23
+5/1/2014 0:00,10/1/2008 0:00,Charter,Departure,International,9
+5/1/2014 0:00,10/1/2008 0:00,Commuter,Arrival,Domestic,4874
+5/1/2014 0:00,10/1/2008 0:00,Commuter,Arrival,International,88
+5/1/2014 0:00,10/1/2008 0:00,Commuter,Departure,Domestic,4874
+5/1/2014 0:00,10/1/2008 0:00,Commuter,Departure,International,88
+5/1/2014 0:00,10/1/2008 0:00,Scheduled,Arrival,Domestic,13141
+5/1/2014 0:00,10/1/2008 0:00,Scheduled,Arrival,International,3705
+5/1/2014 0:00,10/1/2008 0:00,Scheduled,Departure,Domestic,13205
+5/1/2014 0:00,10/1/2008 0:00,Scheduled,Departure,International,3689
+5/1/2014 0:00,11/1/2008 0:00,Charter,Arrival,Domestic,28
+5/1/2014 0:00,11/1/2008 0:00,Charter,Arrival,International,3
+5/1/2014 0:00,11/1/2008 0:00,Charter,Departure,Domestic,28
+5/1/2014 0:00,11/1/2008 0:00,Charter,Departure,International,8
+5/1/2014 0:00,11/1/2008 0:00,Commuter,Arrival,Domestic,4182
+5/1/2014 0:00,11/1/2008 0:00,Commuter,Arrival,International,60
+5/1/2014 0:00,11/1/2008 0:00,Commuter,Departure,Domestic,4182
+5/1/2014 0:00,11/1/2008 0:00,Commuter,Departure,International,60
+5/1/2014 0:00,11/1/2008 0:00,Scheduled,Arrival,Domestic,12211
+5/1/2014 0:00,11/1/2008 0:00,Scheduled,Arrival,International,3418
+5/1/2014 0:00,11/1/2008 0:00,Scheduled,Departure,Domestic,12243
+5/1/2014 0:00,11/1/2008 0:00,Scheduled,Departure,International,3408
+5/1/2014 0:00,12/1/2008 0:00,Charter,Arrival,Domestic,50
+5/1/2014 0:00,12/1/2008 0:00,Charter,Arrival,International,2
+5/1/2014 0:00,12/1/2008 0:00,Charter,Departure,Domestic,43
+5/1/2014 0:00,12/1/2008 0:00,Commuter,Arrival,Domestic,4359
+5/1/2014 0:00,12/1/2008 0:00,Commuter,Arrival,International,71
+5/1/2014 0:00,12/1/2008 0:00,Commuter,Departure,Domestic,4359
+5/1/2014 0:00,12/1/2008 0:00,Commuter,Departure,International,71
+5/1/2014 0:00,12/1/2008 0:00,Scheduled,Arrival,Domestic,12796
+5/1/2014 0:00,12/1/2008 0:00,Scheduled,Arrival,International,3668
+5/1/2014 0:00,12/1/2008 0:00,Scheduled,Departure,Domestic,12811
+5/1/2014 0:00,12/1/2008 0:00,Scheduled,Departure,International,3658
+5/1/2014 0:00,1/1/2009 0:00,Charter,Arrival,Domestic,35
+5/1/2014 0:00,1/1/2009 0:00,Charter,Arrival,International,6
+5/1/2014 0:00,1/1/2009 0:00,Charter,Departure,Domestic,43
+5/1/2014 0:00,1/1/2009 0:00,Charter,Departure,International,6
+5/1/2014 0:00,1/1/2009 0:00,Commuter,Arrival,Domestic,4420
+5/1/2014 0:00,1/1/2009 0:00,Commuter,Arrival,International,80
+5/1/2014 0:00,1/1/2009 0:00,Commuter,Departure,Domestic,4420
+5/1/2014 0:00,1/1/2009 0:00,Commuter,Departure,International,80
+5/1/2014 0:00,1/1/2009 0:00,Scheduled,Arrival,Domestic,12368
+5/1/2014 0:00,1/1/2009 0:00,Scheduled,Arrival,International,3590
+5/1/2014 0:00,1/1/2009 0:00,Scheduled,Departure,Domestic,12404
+5/1/2014 0:00,1/1/2009 0:00,Scheduled,Departure,International,3567
+5/1/2014 0:00,2/1/2009 0:00,Charter,Arrival,Domestic,33
+5/1/2014 0:00,2/1/2009 0:00,Charter,Arrival,International,6
+5/1/2014 0:00,2/1/2009 0:00,Charter,Departure,Domestic,33
+5/1/2014 0:00,2/1/2009 0:00,Charter,Departure,International,6
+5/1/2014 0:00,2/1/2009 0:00,Commuter,Arrival,Domestic,4052
+5/1/2014 0:00,2/1/2009 0:00,Commuter,Arrival,International,79
+5/1/2014 0:00,2/1/2009 0:00,Commuter,Departure,Domestic,4052
+5/1/2014 0:00,2/1/2009 0:00,Commuter,Departure,International,79
+5/1/2014 0:00,2/1/2009 0:00,Scheduled,Arrival,Domestic,11316
+5/1/2014 0:00,2/1/2009 0:00,Scheduled,Arrival,International,3128
+5/1/2014 0:00,2/1/2009 0:00,Scheduled,Departure,Domestic,11357
+5/1/2014 0:00,2/1/2009 0:00,Scheduled,Departure,International,3113
+5/1/2014 0:00,3/1/2009 0:00,Charter,Arrival,Domestic,50
+5/1/2014 0:00,3/1/2009 0:00,Charter,Arrival,International,10
+5/1/2014 0:00,3/1/2009 0:00,Charter,Departure,Domestic,49
+5/1/2014 0:00,3/1/2009 0:00,Charter,Departure,International,11
+5/1/2014 0:00,3/1/2009 0:00,Commuter,Arrival,Domestic,4551
+5/1/2014 0:00,3/1/2009 0:00,Commuter,Arrival,International,93
+5/1/2014 0:00,3/1/2009 0:00,Commuter,Departure,Domestic,4551
+5/1/2014 0:00,3/1/2009 0:00,Commuter,Departure,International,93
+5/1/2014 0:00,3/1/2009 0:00,Scheduled,Arrival,Domestic,12907
+5/1/2014 0:00,3/1/2009 0:00,Scheduled,Arrival,International,3547
+5/1/2014 0:00,3/1/2009 0:00,Scheduled,Departure,Domestic,12960
+5/1/2014 0:00,3/1/2009 0:00,Scheduled,Departure,International,3518
+5/1/2014 0:00,4/1/2009 0:00,Charter,Arrival,Domestic,42
+5/1/2014 0:00,4/1/2009 0:00,Charter,Arrival,International,5
+5/1/2014 0:00,4/1/2009 0:00,Charter,Departure,Domestic,43
+5/1/2014 0:00,4/1/2009 0:00,Charter,Departure,International,6
+5/1/2014 0:00,4/1/2009 0:00,Commuter,Arrival,Domestic,4273
+5/1/2014 0:00,4/1/2009 0:00,Commuter,Arrival,International,78
+5/1/2014 0:00,4/1/2009 0:00,Commuter,Departure,Domestic,4273
+5/1/2014 0:00,4/1/2009 0:00,Commuter,Departure,International,78
+5/1/2014 0:00,4/1/2009 0:00,Scheduled,Arrival,Domestic,12555
+5/1/2014 0:00,4/1/2009 0:00,Scheduled,Arrival,International,3524
+5/1/2014 0:00,4/1/2009 0:00,Scheduled,Departure,Domestic,12588
+5/1/2014 0:00,4/1/2009 0:00,Scheduled,Departure,International,3508
+5/1/2014 0:00,5/1/2009 0:00,Charter,Arrival,Domestic,32
+5/1/2014 0:00,5/1/2009 0:00,Charter,Arrival,International,3
+5/1/2014 0:00,5/1/2009 0:00,Charter,Departure,Domestic,30
+5/1/2014 0:00,5/1/2009 0:00,Charter,Departure,International,3
+5/1/2014 0:00,5/1/2009 0:00,Commuter,Arrival,Domestic,4333
+5/1/2014 0:00,5/1/2009 0:00,Commuter,Arrival,International,84
+5/1/2014 0:00,5/1/2009 0:00,Commuter,Departure,Domestic,4333
+5/1/2014 0:00,5/1/2009 0:00,Commuter,Departure,International,84
+5/1/2014 0:00,5/1/2009 0:00,Scheduled,Arrival,Domestic,13103
+5/1/2014 0:00,5/1/2009 0:00,Scheduled,Arrival,International,3448
+5/1/2014 0:00,5/1/2009 0:00,Scheduled,Departure,Domestic,13133
+5/1/2014 0:00,5/1/2009 0:00,Scheduled,Departure,International,3438
+5/1/2014 0:00,6/1/2009 0:00,Charter,Arrival,Domestic,36
+5/1/2014 0:00,6/1/2009 0:00,Charter,Arrival,International,8
+5/1/2014 0:00,6/1/2009 0:00,Charter,Departure,Domestic,40
+5/1/2014 0:00,6/1/2009 0:00,Charter,Departure,International,7
+5/1/2014 0:00,6/1/2009 0:00,Commuter,Arrival,Domestic,4401
+5/1/2014 0:00,6/1/2009 0:00,Commuter,Arrival,International,90
+5/1/2014 0:00,6/1/2009 0:00,Commuter,Departure,Domestic,4401
+5/1/2014 0:00,6/1/2009 0:00,Commuter,Departure,International,90
+5/1/2014 0:00,6/1/2009 0:00,Scheduled,Arrival,Domestic,13442
+5/1/2014 0:00,6/1/2009 0:00,Scheduled,Arrival,International,3419
+5/1/2014 0:00,6/1/2009 0:00,Scheduled,Departure,Domestic,13471
+5/1/2014 0:00,6/1/2009 0:00,Scheduled,Departure,International,3427
+5/1/2014 0:00,7/1/2009 0:00,Charter,Arrival,Domestic,26
+5/1/2014 0:00,7/1/2009 0:00,Charter,Arrival,International,5
+5/1/2014 0:00,7/1/2009 0:00,Charter,Departure,Domestic,27
+5/1/2014 0:00,7/1/2009 0:00,Charter,Departure,International,5
+5/1/2014 0:00,7/1/2009 0:00,Commuter,Arrival,Domestic,4489
+5/1/2014 0:00,7/1/2009 0:00,Commuter,Arrival,International,91
+5/1/2014 0:00,7/1/2009 0:00,Commuter,Departure,Domestic,4489
+5/1/2014 0:00,7/1/2009 0:00,Commuter,Departure,International,91
+5/1/2014 0:00,7/1/2009 0:00,Scheduled,Arrival,Domestic,14344
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

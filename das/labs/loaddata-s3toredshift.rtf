@@ -1,0 +1,66 @@
+1.	Launch a Linux EC2 instance and SSH into it
+
+
+1.	Install postgreSQL client on your workstation using the below command
+[root]# yum install postgresql
+
+
+2.	Log into your Redshift Cluster and create a table wikipage using the following command
+[root]# psql root -h <redshift_end_point (without port)> -d wikidata -p 5439
+Enter Password:” Enter you redshift_cluster_password”
+wikidata=#create table wikipage(projectcode varchar(32), pagename varchar(1024),pageviews bigint, bytes bigint);
+
+
+
+3.	Next create a table language using the following command
+wikidata=#create table languages (lang_code varchar (32), language varchar(255));
+
+
+
+4.	Confirm the tables have been created with the following command
+wikidata=# \dt;
+
+
+
+5.	Load data into your wikipage table using the following command
+wikidata=# copy wikipage from 's3://awsl4trainingfile/wikidata-pagecount-oregon' credentials 'aws_access_key_id=********;aws_secret_access_key=*******' delimiter ' ' gzip;
+
+
+6.	Populate your languages table using the following command
+wikidata=# copy languages from 's3://awsl4trainingfile/wikidata-test-oregon' credentials 'aws_access_key_id=*****;aws_secret_access_key=*******’ delimiter ',';
+
+
+
+7.	Check the disk space using the following command
+wikidata=# select owner, host, diskno, used, capacity,
+(used-tossed)/capacity::numeric *100 as pctused
+from stv_partitions order by owner;
+
+
+
+8.	Check the disk space used by your table using the following command
+wikidata=# select db_id, trim(name) as tablename, col, tbl, max(blocknum)
+from svv_diskusage
+where name='wikipage'
+group by db_id, name, col, tbl
+order by db_id, name, col, tbl;
+
+
+
+9.	Check how the data is distributed using the following command
+wikidata=# select slice, col, num_values, minvalue, maxvalue
+from svv_diskusage
+where name='wikipage' and col =0
+order by slice, col;
+
+
+
+10.	To find the total number of rows on each slice, run the following command
+wikidata=# select sum(num_values),col,slice from (select slice, col, num_values, minvalue, maxvalue
+from svv_diskusage
+where name='wikipage' and col =0
+order by slice, col) group by slice,col;
+
+
+
+

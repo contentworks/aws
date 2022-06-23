@@ -1,0 +1,69 @@
+1) Install kinesis-agent
+	sudo su
+	cd 	
+	sudo yum install -y https://s3.amazonaws.com/streaming-data-agent/aws-kinesis-agent-latest.amzn1.noarch.rpm
+
+2) Start kinesis-agent service
+	sudo service aws-kinesis-agent start
+
+3) Go to the aws-kinesis-agent file. Uncomment and keep access_key, secret_access_key and the region:  
+	vim /etc/sysconfig/aws-kinesis-agent
+	
+4) make a direcory named data
+	cd
+	mkdir data
+	
+5) create a file called random.sh
+	vim random.sh
+	
+6) Put the below bash script and save it. This script will generate a random number and place in /root/data folder.
+	
+	#! /bin/bash
+		i=0
+		while [ $i -lt 6 ]
+	do
+        filename=log_$(date '+%s')
+        num1=$(awk -v min=5 -v max=10000 'BEGIN{srand(); print int(min+rand()*(max-min+1))}')
+        sleep 1
+        num2=$(awk -v min=5 -v max=10000 'BEGIN{srand(); print int(min+rand()*(max-min+1))}')
+        sleep 1
+        num3=$(awk -v min=5 -v max=10000 'BEGIN{srand(); print int(min+rand()*(max-min+1))}')
+        sleep 1
+        num4=$(awk -v min=5 -v max=10000 'BEGIN{srand(); print int(min+rand()*(max-min+1))}')
+        sleep 1
+        num5=$(awk -v min=5 -v max=10000 'BEGIN{srand(); print int(min+rand()*(max-min+1))}')
+        sleep 1
+        echo "$num1,$num2,$num3,$num4,$num5" > /root/data/$filename
+        i=$((i+1))
+	done
+	
+7) change the mode permission of the file.
+		chmod 700 random.sh
+		
+8) We will run this script every minute from crontab. Type crontab -e and paste below command and save.
+		* * * * * /root/random.sh
+		
+9) change the ownership for the root direcotry 
+	chown aws-kinesis-agent-user /root
+	
+10) change the direcotcory to 
+	cd /etc/aws-kinesis
+	
+11) open the file agent.json
+	vim agent.json
+
+12) copy and paste below code and save it. ( Note: change the endponits and kinesis stream name)	
+
+{
+  "cloudwatch.emitMetrics": true,
+  "kinesis.endpoint": "https://kinesis.us-west-2.amazonaws.com",
+  "firehose.endpoint": "https://firehose.us-west-2.amazonaws.com",
+
+  "flows": [
+    {
+      "filePattern": "/root/data/*",
+      "kinesisStream": "data-stream-name",
+      "partitionKeyOption": "RANDOM"
+    }
+  ]
+}
