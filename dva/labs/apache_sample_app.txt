@@ -1,0 +1,23 @@
+{
+    "family": "apache-sample",
+    "containerDefinitions": [
+        {
+            "name": "apache-sample",
+            "image": "cloudthatdockerrepo/sampleapp",
+            "cpu": 10,
+            "memory": 500,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 80
+                }
+            ],
+            "entryPoint": [
+                "/usr/sbin/apache2",
+                "-D",
+                "FOREGROUND"
+            ],
+            "essential": true
+        }
+    ]
+}

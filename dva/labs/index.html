@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Website Hosting</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+	function trigger() {
+        var f1 = $("#topicarn").val()
+        var f2 = $("#message").val()
+		var f3 = $("#subject").val()
+        var data = {
+            "topicarn" : f1,
+            "message" : f2,
+            "subject" : f3
+        }
+
+		console.log("DATA", JSON.stringify(data))
+        $.ajax({
+        url: " https://vx9czp7ht6.execute-api.ap-southeast-1.amazonaws.com/test/lambdatrigger",
+        type: 'POST',
+        dataType: 'json',
+        contentType: 'application/json',
+        crossDomain: true,
+        data: JSON.stringify(data),
+        success: function (respdata) {
+            console.log("SUCCESS", respdata)
+            document.getElementById('label').innerHTML = "Success";
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+             console.log("Error", ajaxOptions)   
+        }
+    });    
+        }
+    </script>
+</head>
+<body>
+<h1>Website hosting</h1>
+<table>
+<tr>
+	<td><h3>Topic ARN</h3></td>
+	<td><h3><input type=text name="toipcarn" id="topicarn" ><h3></td>
+</tr>
+<tr>
+	<td><h3>Message</h3></td>
+	<td><h3><input type=text name="message" id="message" ><h3></td>
+</tr>
+<tr>
+	<td><h3>Subject</h3></td>
+	<td><h3><input type=text name="subject" id="subject" ><h3></td>
+</tr>
+</table>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button name="submit" onclick="trigger()">Submit</button>
+<div id="label" name="label"></div>
+</body>
+</html>
